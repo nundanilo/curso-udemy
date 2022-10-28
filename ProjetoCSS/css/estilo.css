@@ -1,0 +1,141 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.hero{
+    background-image: url(../imagens/bg-3.jpg);
+    height: 500px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 1px solid transparent;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 3px 2px rgb(83, 48, 48);
+}
+
+.hero-content p{
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+.card {
+    width: 32%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    float: left;
+}
+
+.card-1, .card-2 {
+    margin-right: 2%;
+
+}
+
+.card a{
+    text-decoration: none;
+    color: rgb(247, 243, 243);
+}
+
+.card a:hover{
+    background: rgba( 0,0,0, 0.1);
+
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    background-color: #6b6c68;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    border-top: 1px solid black;
+    text-transform: uppercase;
+}
+.hero nav ul{
+    text-align: right;
+    margin: 22px 22px 0 0;
+}
+
+.hero nav li {
+    list-style: none;
+    display: inline-block;
+    border: 1px solid white;
+    background-color: #ccc;
+    margin: auto;
+    
+}
+
+.hero nav a{
+    display: block;
+    background: rgba( 0,0,0, 0.2);
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+   
+}
+
+
+.hero nav a:hover{
+    background: rgba( 0,0,0, 0.5);
+}
+
+main{
+    width: 75%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+    overflow: auto;
+}
+
+.card-1, .card-2, .card-3 {
+    text-align: center;
+}
+
+
+.content-header{
+    border-bottom: solid 2px #ccc;
+	padding: 10px;
+	background: #eee;
+}
+.content-header h2{
+    margin:0;
+}
+
+.content-header p{
+    text-align: justify;
+}
+.rodape{
+    height: 80px;
+	color: white;
+	font-size: 14px;
+	text-align: center;
+	text-shadow: 2px 2px 2px rgb(14, 1, 1);
+	background: #6b6c68;
+    line-height: 80px;
+}
+
+.rodape a {
+    text-decoration: none;
+}
